@@ -2,45 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Open</span>
-    <script>
-        function openNav() {
-            document.getElementById("link").style.width = "100%";
-        }
-        
-        function closeNav() {
-            document.getElementById("link").style.width = "0%";
-        }
-    </script>
-    <div class="container">
-        <div id="link" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="link-content">
-                <a href="#">Photos</a>
-                <a href="#">Contact</a>
-                <a href="">Hobbies</a>
-                <a href="#">Hometown</a>
+    <div class="menu">
+        <a href="/index/CV.html">CV<i class="fa fa-search"></i></a>
+        <a href="">Photo<i class="fa fa-search"></i></a>
+        <a href="/index/Hobbies.html">Hobbies<i class="fa fa-search"></i></a>
+        <a href="#">Hometown<i class="fa fa-search"></i></a>
+    </div>
+    <div class="container2">
+        <div class="bodycontent">
+            <div class="img">
+                <img src="/img/Lanh.JPEG" alt="" style="width: 300px;height: 300px; border: 2px solid rgb(240, 105, 27); border-bottom: 5px solid rgb(233, 102, 15);">
             </div>
-        </div>
-        <div class="container2">
-            <div class="bodycontent">
-                <div class="img">
-                    <img src="/img/Lanh.JPEG" alt="" style="width: 400px;height: 400px; border: 2px solid rgb(240, 105, 27); border-bottom: 50px solid rgb(233, 102, 15);">
-                </div>
-                <div class="h1-p">
-                    <h1>Lanh Phalla</h1>
-                    <h2>Hello !</h2>
-                <p>I am Lanh.I am a people in Cambodia and I come from <br>Preas Vihea province. This is my curriculum vitae(CV).<br> About link for go to see my personal information.<br>You can click on "Open" manu if you want to know.
-            </p>
-                </div>
+            <div class="h1-p">
+                <h1>Lanh Phalla</h1>
+                <h2>Hello !</h2>
+                <p>I am Lanh.I am a people in Cambodia and I come from <br>Preas Vihea province. This is my curriculum vitae(CV).<br> About link for go to see my personal information.<br>You can click on "Open" manu if you want to know.</p>
             </div>
+            
         </div>
+    </div>
+    <div class="icon-bar">
+        <a href="#">Facebook<i class="fa fa-search"></i></a> 
+        <a href="#">Messager<i class="fa fa-envelope"></i></a> 
+        <a href="#">Email<i class="fa fa-globe"></i></a>
+        <a href="#">Phone<i class="fa fa-trash"></i></a> 
     </div>
 </body>
 </html>

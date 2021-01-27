@@ -1,33 +1,32 @@
-/* .container1{
-    width: 100%;
-    display: flex;
-} */
-.overlay{
-    background:rgb(15, 13, 13);
-    flex:20%;
-    height: 99vh;
-    padding-top: 2px;
-    /* display: flex; */
+.menu a{
+  transition: all 0.3s ease;
+  font-size: 20px;
+  
+  color: white;
+  margin: 20px;
+  margin-left: 0px;
 }
-a:visited {
-    color:rgb(202, 38, 38);
+body .menu{
+  background-color: rgb(238, 134, 15);
+  text-align: center;
 }
-/* .container2{
-    flex: 80%;
-    height: 99vh;
-} */
-/* Picture background */
+.menu a:hover{
+  background-color:black;
+  border-radius: 20px;
+  font-size: 30px;
+
+}
 .container2 .bodycontent {
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("");
-    color:rgb(243, 240, 229);
-    background-color: rgba(35, 68, 60, 0.356);
-    border-bottom: 100px solid rgb(226, 82, 15);
-    
+    color:rgb(245, 244, 243);
+    background-color: rgba(12, 92, 72, 0.356);  
+}
+body{
+  background-color: blue;
 }
 img{
     border-radius: 50%;
@@ -35,56 +34,27 @@ img{
 h1{
     border-bottom: 2px solid black;
 }
+/* Media */
 a {
-    text-decoration: none;
- 
+  text-decoration: none;
+
 }
-/* link */
-.overlay{
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(209, 200, 200);
-    background-color: rgba(214, 206, 206, 0.9);
-    overflow-x: hidden;
-    transition: 0.5s;
-  }
-  .link-content {
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 30px;
-  }
-.overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #050404;
-    display: block;
-    transition: 0.3s;
-  }
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  .overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-  }
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-    font-size: 40px;
-    top: 15px;
-    right: 35px;
-    }
-  }
-  span{
-    background-color: #f38a34;
-    border-radius: 10px;
-  }
+.icon-bar {
+  width: 100%;
+  background-color: rgb(245, 105, 24);
+  text-align: center;
+}
+
+.icon-bar a {
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 31px;
+}
+
+.icon-bar a:hover {
+  background-color:black;
+  border-radius: 20px;
+  font-size: 20px;
+} 
